@@ -1,0 +1,36 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+.header{
+    /* contains logo and header links ul */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+
+    background-color: #1F2937 ;
+}
+
+.logo{
+    font-weight: bold ;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    /* contains li */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 24px
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 200;
+}
