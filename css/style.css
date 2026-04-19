@@ -6,12 +6,16 @@ body {
     margin: 0px 0px;
 }
 
+p{
+    margin: 0px
+}
+
 .header {
     /* contains logo and header links ul */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 0px;
+    padding-top:16px;
 }
 
 .logo {
@@ -31,7 +35,7 @@ ul {
 }
 
 a,
-.hero-secondary-text {
+.hero-secondary-text{
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 200;
@@ -44,25 +48,47 @@ a {
 
 .hero {
     background-color: #1F2937;
-    padding: 0px 150px;
+    padding: 0px 256px;
 }
 
 .hero-body {
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
     display: flex;
-
+    padding: 96px 0px;
+    gap: 16px;
 }
 
 .hero-body-text {
-    border: 1px solid rgb(252, 64, 64);
-    flex: 1
+    /* border: 1px solid rgb(252, 64, 64); */
+    flex: 1;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0px;
 }
 
 .placeholder {
+    display: flex;
     margin: 0px;
-    border: 1px solid rgb(134, 58, 58);
+    /* border: 1px solid rgb(134, 58, 58); */
     flex: 1;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+}
+
+button{
+    background-color: #3882F6;
+    font-size: 18px;
+    color:#e5e7eb;
+    border-color: transparent;
+    border-radius: 8px;
+    padding: 4px 24px;
+    margin: 8px 0px;
 }
 
 .info-header {
