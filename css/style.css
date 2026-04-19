@@ -2,8 +2,8 @@
     font-family: Roboto, sans-serif;
 }
 
-body{
-
+body {
+    margin: 0px 0px;
 }
 
 .header {
@@ -47,13 +47,31 @@ a {
     padding: 0px 150px;
 }
 
+.hero-body {
+    border: 1px solid red;
+
+    display: flex;
+
+}
+
+.hero-body-text {
+    border: 1px solid rgb(252, 64, 64);
+    flex: 1
+}
+
+.placeholder {
+    margin: 0px;
+    border: 1px solid rgb(134, 58, 58);
+    flex: 1;
+}
+
 .info-header {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
     margin: 48px;
-    
+
 }
 
 .info-images {
