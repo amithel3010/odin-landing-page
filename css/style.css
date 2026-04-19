@@ -48,14 +48,14 @@ a {
 
 .hero {
     background-color: #1F2937;
-    padding: 0px 256px;
+    padding: 0px 480px;
 }
 
 .hero-body {
     /* border: 1px solid red; */
     display: flex;
-    padding: 96px 0px;
-    gap: 16px;
+    padding: 96px 0px 128px;
+    gap: 48px;
 }
 
 .hero-body-text {
@@ -89,6 +89,10 @@ button {
     border-radius: 8px;
     padding: 4px 24px;
     margin: 8px 0px;
+}
+
+.info {
+    padding-bottom: 80px;
 }
 
 .info-header {
@@ -129,6 +133,7 @@ button {
 
 .info-img p {
     margin: 8px 0px;
+    color: #666
 }
 
 .quote {
@@ -137,7 +142,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 128px 256px;
+    padding: 128px 512px;
 }
 
 #quote-text {
@@ -147,6 +152,33 @@ button {
     font-style: italic;
 }
 
-#quote-name{
-    align-self:flex-end;
+#quote-name {
+    align-self: flex-end;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    margin: 128px 512px;
+    border-radius: 8px;
+    color: #E5E7EB;
+    padding: 48px
+}
+
+.action h2 {
+    margin: 0;
+}
+
+.action button{
+    border-color: #E5E7EB;
+    border-style: solid;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px;
 }
