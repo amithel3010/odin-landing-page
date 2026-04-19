@@ -6,7 +6,7 @@ body {
     margin: 0px 0px;
 }
 
-p{
+p {
     margin: 0px
 }
 
@@ -15,7 +15,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top:16px;
+    padding-top: 16px;
 }
 
 .logo {
@@ -35,7 +35,7 @@ ul {
 }
 
 a,
-.hero-secondary-text{
+.hero-secondary-text {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 200;
@@ -81,10 +81,10 @@ a {
     color: #e5e7eb;
 }
 
-button{
+button {
     background-color: #3882F6;
     font-size: 18px;
-    color:#e5e7eb;
+    color: #e5e7eb;
     border-color: transparent;
     border-radius: 8px;
     padding: 4px 24px;
@@ -129,4 +129,24 @@ button{
 
 .info-img p {
     margin: 8px 0px;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 128px 256px;
+}
+
+#quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#quote-name{
+    align-self:flex-end;
 }
