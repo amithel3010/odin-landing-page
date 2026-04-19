@@ -1,24 +1,22 @@
-*{
+* {
     font-family: Roboto, sans-serif;
 }
 
-.header{
+.header {
     /* contains logo and header links ul */
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 16px;
-
-    background-color: #1F2937 ;
 }
 
-.logo{
-    font-weight: bold ;
+.logo {
+    font-weight: bold;
     font-size: 24px;
     color: #f9faf8;
 }
 
-ul{
+ul {
     /* contains li */
     list-style-type: none;
     margin: 0;
@@ -28,9 +26,22 @@ ul{
     gap: 24px
 }
 
-a{
-    text-decoration: none;
+a,
+.hero-secondary-text {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 200;
 }
+
+a {
+    text-decoration: none;
+
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+
+
+
